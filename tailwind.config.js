@@ -10,13 +10,16 @@ module.exports = {
              'nav-black': '#333333',
            },
       colors: {
-        'primary': '#008549',
+        'primary': {DEFAULT:'#008549', 200:'#777777'},
         'secondary': '#186298',
         'fl-yellow': '#FFDD00'
       },
       flexGrow: {
         '1': '1',
         '2': '2'
+      },
+      backgroundImage: {
+        'stroke-texture': 'url(/Stroke-Texture.png)'
       }
     },
   },

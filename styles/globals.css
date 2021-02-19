@@ -8,7 +8,13 @@
 }
 
 body {
-    @apply font-body
+    max-width: 1440px;
+    @apply mx-auto;
+    @apply font-body;
+}
+
+.news-banner {
+    background-image: url("/Stroke-Texture.png");
 }
 
 
