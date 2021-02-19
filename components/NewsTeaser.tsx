@@ -1,9 +1,13 @@
 import Image from 'next/image';
 
-export function NewsTeaser() {
+interface ComponentProps {
+    img: string;
+}
+
+export default function NewsTeaser({img}:ComponentProps) {
     return (<div className="flex">
         <div className="flex-none">
-            <Image src="/news/toll_plaza.jpg" width="201" height="142" />
+            <Image src={img} width="201" height="142" />
 
         </div>
         <div className="ml-8">

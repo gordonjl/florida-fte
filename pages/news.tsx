@@ -1,4 +1,4 @@
-import { NewsTeaser } from "../components/NewsTeaser";
+import NewsTeaser from "../components/NewsTeaser";
 
 
 function NewsPage() {
@@ -18,14 +18,8 @@ function NewsPage() {
                     <span className="border-b-4 border-fl-yellow font-bold">Recent</span>
                 </div>
                 <div className="mt-10 flex flex-col space-y-16" >
-                    <NewsTeaser></NewsTeaser>
-                    <NewsTeaser></NewsTeaser>
-                    <NewsTeaser></NewsTeaser>
-                    <NewsTeaser></NewsTeaser>
-                    <NewsTeaser></NewsTeaser>
-                    <NewsTeaser></NewsTeaser>
-                    <NewsTeaser></NewsTeaser>
-                    <NewsTeaser></NewsTeaser>
+                    <NewsTeaser img="/news/toll_plaza.jpg"></NewsTeaser>
+                    <NewsTeaser img="/news/street_with_signs.jpg"></NewsTeaser>
                 </div>
 
             </section>
